@@ -195,7 +195,7 @@ App = {
       return instance.dedicateRose(_Rose_name, _description, _from, {
         value: web3.toWei(0.05, "ether"),
         from: App.account,
-        gas: 2300000
+        gas: 23000
       });
     }).then(function(result) {
 
@@ -305,7 +305,7 @@ App = {
       return instance.dedicateRoseGold(_RoseGold_name, _descriptionGold, _fromGold, {
         value: web3.toWei(1, "ether"),
         from: App.account,
-        gas: 2300000
+        gas: 23000
       });
     }).then(function(result) {
 
@@ -354,7 +354,7 @@ displayRosePurple: function(idPurple, loverPurple, namePurple, descriptionPurple
       return instance.dedicateRosePurple(_RosePurple_name, _descriptionPurple, _fromPurple, {
         value: web3.toWei(1, "ether"),
         from: App.account,
-        gas: 2300000
+        gas: 23000
       });
     }).then(function(result) {
 
