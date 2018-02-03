@@ -7549,6 +7549,15 @@
     "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
   },
   "networks": {
+
+    "1": {
+       "events": {},
+       "links": {},
+       "address": "0x7095f374A780DB3783f975a124297656B572e263"
+    },
+
+
+
     "4": {
       "events": {},
       "links": {},
