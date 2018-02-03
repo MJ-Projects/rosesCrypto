@@ -8,15 +8,15 @@
       "type": "constructor"
     }
   ],
-  "bytecode": "0x60606040523415600e57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550603580605b6000396000f3006060604052600080fd00a165627a7a723058209cc17086fd0064d117723d6082487e4f0d0a7741666466b8a2f54290f9f28c3b0029",
-  "deployedBytecode": "0x6060604052600080fd00a165627a7a723058209cc17086fd0064d117723d6082487e4f0d0a7741666466b8a2f54290f9f28c3b0029",
-  "sourceMap": "26:208:2:-;;;186:46;;;;;;;;217:10;209:5;;:18;;;;;;;;;;;;;;;;;;26:208;;;;;;",
+  "bytecode": "0x60606040523415600e57600080fd5b60008054600160a060020a033316600160a060020a031990911617905560358060386000396000f3006060604052600080fd00a165627a7a7230582048e241357895b9c6493782b944b0d79d4f5838beac0b4e359a69da1f3d93d1b60029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a7230582048e241357895b9c6493782b944b0d79d4f5838beac0b4e359a69da1f3d93d1b60029",
+  "sourceMap": "26:208:2:-;;;186:46;;;;;;;;209:5;:18;;-1:-1:-1;;;;;217:10:2;209:18;-1:-1:-1;;;;;;209:18:2;;;;;;26:208;;;;;;",
   "deployedSourceMap": "26:208:2:-;;;;;",
   "source": "pragma solidity ^0.4.11;\n\ncontract Owned {\n  // State variable\n  address owner;\n\n  // Modifiers\n  modifier onlyOwner() {\n    require(msg.sender == owner);\n    _;\n  }\n\n  // constructor\n  function Owned() {\n    owner = msg.sender;\n  }\n}\n",
-  "sourcePath": "/Users/Jared/Documents/GitHub/rosesCrypto/contracts/Owned.sol",
+  "sourcePath": "/Users/MJ/Documents/GitHub/rosesCrypto/contracts/Owned.sol",
   "ast": {
     "attributes": {
-      "absolutePath": "/Users/Jared/Documents/GitHub/rosesCrypto/contracts/Owned.sol",
+      "absolutePath": "/Users/MJ/Documents/GitHub/rosesCrypto/contracts/Owned.sol",
       "exportedSymbols": {
         "Owned": [
           616
@@ -356,9 +356,9 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
+    "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
   },
   "networks": {},
   "schemaVersion": "1.0.1",
-  "updatedAt": "2018-02-01T14:05:03.611Z"
+  "updatedAt": "2018-02-03T08:02:56.564Z"
 }
